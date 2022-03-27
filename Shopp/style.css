@@ -1,0 +1,46 @@
+
+#container{
+    padding-top: 40px;
+    background-color:#f8edeb ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+img{
+    border-radius: 10px;
+}
+
+input{
+    
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color:#fec5bb ;
+    width: 100px;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+h1{
+	text-align: center;
+    background-color: #f8f9fa;
+}
+.item-name{
+    padding: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.title{
+	background-color: #f8edeb;
+	text-align: center;
+}
+.quantity{
+    background-color: #fec5bb;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
